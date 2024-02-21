@@ -27,9 +27,9 @@ let notes = [
     important: true
   }
 ]
-app.get('/', (request, response) => {
-    response.send('<h1>Hello World!</h1>')
-  })
+// app.get('/', (request, response) => {
+//     response.send('<h1>Hello World!</h1>')
+//   })
   
 //   TODAS LAS NOTAS
   app.get('/api/notes', (request, response) => {
